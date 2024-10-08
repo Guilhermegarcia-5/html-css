@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+}
+
+:root{
+    --titulo: passion one, sans-serif
+}
+
+body, html{
+    min-height: 100vh;
+}
+
+header{
+    background-color: black;
+    color: aliceblue;
+    font-family: var(--titulo);
+    font-weight: bold;
+    text-align: center;
+}
+
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+h1:hover{
+    text-decoration: underline;
+}
+
+header p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    padding-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section p{
+    font-family: sriracha;
+    padding-top: 15vw;
+    padding-bottom: 15vw;
+    font-size: 3.5vw;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.imagem1{
+}
+.imagem1 article{
+    position: relative;
+    background: white url(background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+    height: 75vw;
+    width: 100%;
+}
+
+.imagem1 p{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 41vw;
+    height: 46vw;
+    color: white;
+    font-size: 3.5vw;
+    margin-left: 30px;
+    padding: 3px;
+    top: 60px;
+    padding-bottom: 4vw;
+}
+
+.imagem2{
+
+}
+
+.imagem2 article{
+    position: relative;
+    background: white url(background002.jpg) right center no-repeat fixed;
+    background-size: cover;
+    height: 75vw;
+    width: 100%;
+}
+
+.imagem2 p{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 42vw;
+    height: 50vw;
+    color: white;
+    font-size: 3.5vw;
+    margin-left: 30px;
+    padding: 3px;
+    top: 60px;
+    padding-bottom: 0.5vw;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin-top: 4vw;
+}
+
+
