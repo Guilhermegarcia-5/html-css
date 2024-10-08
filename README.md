@@ -5,7 +5,7 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
 <style>
     a{
-        color: black;
+        color: darkred;
         text-decoration: none;
     }
     a:hover{
@@ -13,7 +13,7 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
     }
 </style>
 
-<a href="https://guilhermegarcia-5.github.io/html-css/">Projeto Cordel</a>
+<a href="https://guilhermegarcia-5.github.io/html-css/">html-css</a>
 
 DESAFIOS MÓDULO 2:
 
