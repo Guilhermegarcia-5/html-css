@@ -59,7 +59,7 @@ section p{
 }
 .imagem1 article{
     position: relative;
-    background: white url(background001.jpg) right center no-repeat fixed;
+    background: white url(background001.jpg) center center no-repeat fixed;
     background-size: cover;
     height: 75vw;
     width: 100%;
@@ -84,7 +84,7 @@ section p{
 
 .imagem2 article{
     position: relative;
-    background: white url(background002.jpg) right center no-repeat fixed;
+    background: white url(background002.jpg) center center no-repeat fixed;
     background-size: cover;
     height: 75vw;
     width: 100%;
