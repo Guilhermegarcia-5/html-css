@@ -7,17 +7,32 @@
     <style>
         .video{
             position: relative;
-            padding-bottom: 57%;
+            padding-bottom: 70%;
+            background-color: brown;
         }
-        iframe{
+        .vid{
             position: absolute;
-            top: 5%;
-            left: 10%;
-            width: 80%;
-            height: 50vw;
+            top: 4%;
+            left: 5.2%;
+            width: 90%;
+            height: 60vw;
+            border-radius: 20px;
         }
         .maps{
             margin-top: 20px;
+        }
+        .divmap{
+            position: relative;
+            padding-bottom: 70%;
+            background-color: green;
+        }
+        .map{
+            position: absolute;
+            top: 4%;
+            left: 5.2%;
+            width: 90%;
+            height: 60vw;
+            border-radius: 20px;
         }
     </style>
 </head>
@@ -25,7 +40,9 @@
     <h1>Conteúdos dentro de iframes</h1>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam eius tempore ipsa illo impedit, ipsam nemo eveniet, deleniti assumenda temporibus nam. Nam suscipit rem velit pariatur earum facilis voluptates unde!</p>
     <h2>Vídeos</h2>
-    <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/JTxPWzPlAyQ?si=gm-Jqs8ZoKkPyfcq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    <div class="video"><iframe class="vid"  width="560" height="315" src="https://www.youtube.com/embed/JTxPWzPlAyQ?si=gm-Jqs8ZoKkPyfcq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
     <h2 class="maps">Mapas do google</h2>
+
+    <div class="divmap"><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2691.9876396645177!2d-51.230943225468614!3d-30.108598234252586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951983a9a0dbfb49%3A0xdfd15b13146cfd0!2sZaffari%20Cavalhada!5e1!3m2!1spt-BR!2sbr!4v1728656734175!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 </body>
 </html>
