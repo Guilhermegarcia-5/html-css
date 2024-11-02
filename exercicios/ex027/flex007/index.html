@@ -8,29 +8,41 @@
         .conteiner {
             background-color: lightsalmon;
             display: flex;
-            flex-flow: wrap column;
-            justify-content: space-evenly;
+            flex-flow: nowrap row;
             align-items: flex-start;
-            align-content: flex-start;
-            height: 90vh;
+            height: 500px;
         }
 
         .item {
             background-color: lightblue;
             border: 1px solid black;
-            text-align: center;
-            width: 100px;
             padding: 10px;
+        }
+
+        #i1{
+            flex-basis: 100px;
+        }
+
+        #i2{
+            flex-basis: 50px;
+        }
+
+        #i3{
+            flex-basis: 300px;
+        }
+
+        #i4{
+            flex-basis: 500px;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
 
-        <div class="item">exemplo de bloco A</div>
-        <div class="item">exemplo de bloco B</div>
-        <div class="item">exemplo de bloco C</div>
-        <div class="item">exemplo de bloco D</div>
+        <div class="item" id="i1">A</div>
+        <div class="item" id="i2">B</div>
+        <div class="item" id="i3">C</div>
+        <div class="item" id="i4">D</div>
 
     </div>
 </body>

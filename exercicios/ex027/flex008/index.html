@@ -8,29 +8,27 @@
         .conteiner {
             background-color: lightsalmon;
             display: flex;
-            flex-flow: wrap column;
-            justify-content: space-evenly;
-            align-items: flex-start;
-            align-content: flex-start;
-            height: 90vh;
+            flex-flow: nowrap row;
         }
 
         .item {
             background-color: lightblue;
             border: 1px solid black;
             text-align: center;
-            width: 100px;
-            padding: 10px;
+            flex-basis: 200px;
+            flex-shrink: 1;
+            flex-grow: 1;
         }
+
     </style>
 </head>
 <body>
     <div class="conteiner">
 
-        <div class="item">exemplo de bloco A</div>
-        <div class="item">exemplo de bloco B</div>
-        <div class="item">exemplo de bloco C</div>
-        <div class="item">exemplo de bloco D</div>
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
 
     </div>
 </body>
