@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
-header > nav{
+header nav{
+    position: relative;
     flex-flow: column nowrap;
+    bottom: 45%;
+    width: 100%;
+}
+
+header{
+    flex-flow: column;
+    height: 57%;
 }
